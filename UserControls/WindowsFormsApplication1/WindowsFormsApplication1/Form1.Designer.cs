@@ -38,10 +38,11 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(1021, 876);
+            this.btnSave.Location = new System.Drawing.Point(766, 701);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(151, 67);
-            this.btnSave.TabIndex = 1;
+            this.btnSave.Size = new System.Drawing.Size(113, 54);
+            this.btnSave.TabIndex = 0;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
@@ -49,53 +50,59 @@
             // lblClientContact
             // 
             this.lblClientContact.AutoSize = true;
-            this.lblClientContact.Location = new System.Drawing.Point(38, 57);
+            this.lblClientContact.Location = new System.Drawing.Point(28, 46);
+            this.lblClientContact.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblClientContact.Name = "lblClientContact";
-            this.lblClientContact.Size = new System.Drawing.Size(153, 25);
+            this.lblClientContact.Size = new System.Drawing.Size(113, 20);
             this.lblClientContact.TabIndex = 2;
             this.lblClientContact.Text = "Client Contact:";
             // 
             // addrClientContact
             // 
-            this.addrClientContact.Location = new System.Drawing.Point(38, 82);
+            this.addrClientContact.Location = new System.Drawing.Point(28, 66);
+            this.addrClientContact.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.addrClientContact.Name = "addrClientContact";
-            this.addrClientContact.Size = new System.Drawing.Size(479, 624);
+            this.addrClientContact.Size = new System.Drawing.Size(359, 499);
             this.addrClientContact.TabIndex = 0;
             // 
             // cltDiscreteChoice
             // 
-            this.cltDiscreteChoice.Location = new System.Drawing.Point(625, 152);
+            this.cltDiscreteChoice.Location = new System.Drawing.Point(469, 122);
+            this.cltDiscreteChoice.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cltDiscreteChoice.Name = "cltDiscreteChoice";
-            this.cltDiscreteChoice.Size = new System.Drawing.Size(524, 45);
+            this.cltDiscreteChoice.Size = new System.Drawing.Size(393, 36);
             this.cltDiscreteChoice.TabIndex = 3;
             // 
             // cltMarketDriverModeling
             // 
-            this.cltMarketDriverModeling.Location = new System.Drawing.Point(625, 217);
+            this.cltMarketDriverModeling.Location = new System.Drawing.Point(469, 174);
+            this.cltMarketDriverModeling.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cltMarketDriverModeling.Name = "cltMarketDriverModeling";
-            this.cltMarketDriverModeling.Size = new System.Drawing.Size(524, 45);
+            this.cltMarketDriverModeling.Size = new System.Drawing.Size(393, 36);
             this.cltMarketDriverModeling.TabIndex = 4;
             // 
             // lblResearchMethodologyDesign
             // 
             this.lblResearchMethodologyDesign.AutoSize = true;
-            this.lblResearchMethodologyDesign.Location = new System.Drawing.Point(609, 82);
+            this.lblResearchMethodologyDesign.Location = new System.Drawing.Point(457, 66);
+            this.lblResearchMethodologyDesign.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblResearchMethodologyDesign.Name = "lblResearchMethodologyDesign";
-            this.lblResearchMethodologyDesign.Size = new System.Drawing.Size(161, 25);
+            this.lblResearchMethodologyDesign.Size = new System.Drawing.Size(119, 20);
             this.lblResearchMethodologyDesign.TabIndex = 5;
             this.lblResearchMethodologyDesign.Text = "Market Science";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1313, 1032);
+            this.ClientSize = new System.Drawing.Size(985, 826);
             this.Controls.Add(this.lblResearchMethodologyDesign);
             this.Controls.Add(this.cltMarketDriverModeling);
             this.Controls.Add(this.cltDiscreteChoice);
             this.Controls.Add(this.lblClientContact);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.addrClientContact);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
